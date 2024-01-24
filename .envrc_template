@@ -1,0 +1,7 @@
+export DISCORD_BOT_TOKEN="xxxxxxxxxx"
+export APPLICATION_ID="xxxxxxxx"
+export GUILD_ID="xxxxxxxx"
+export SHORTCUT_URL="https://xxxxxx/shortcuts/xxxxxx"
+export BOT_NAME="<@xxxxxx>"
+export SERVER_URL="https://xxxxx"
+export LOCAL_PORT="80"
