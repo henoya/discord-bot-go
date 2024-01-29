@@ -6,7 +6,7 @@ require (
 	github.com/bwmarrin/discordgo v0.27.1
 	github.com/ipfs/go-log v1.0.5
 	github.com/labstack/echo/v4 v4.11.4
-	github.com/mattn/go-sqlite3 v1.14.19
+	github.com/mattn/go-sqlite3 v1.14.20
 	gorm.io/driver/sqlite v1.5.4
 	gorm.io/gorm v1.25.5
 )
