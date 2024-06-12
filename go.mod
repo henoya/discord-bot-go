@@ -3,7 +3,7 @@ module github.com/henoya/discord-bot-go
 go 1.21.6
 
 require (
-	github.com/bwmarrin/discordgo v0.27.1
+	github.com/bwmarrin/discordgo v0.28.1
 	github.com/ipfs/go-log v1.0.5
 	github.com/labstack/echo/v4 v4.11.4
 	github.com/mattn/go-sqlite3 v1.14.22
