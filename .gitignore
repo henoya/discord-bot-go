@@ -28,5 +28,7 @@ sample/
 .env
 .env.*
 
+.config/m/
+
 discord-bot-go
 discord-bot.db
