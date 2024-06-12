@@ -40,8 +40,8 @@ func (s *Server) postWalk(e echo.Context) error {
 	walk := e.QueryParam("walk")
 	today := e.QueryParam("today")
 	yesterday := e.QueryParam("yesterday")
-	yesterday_walk := e.QueryParam("yesterday_walk")
-	partLogger.Infof("hash: %s  today: %s walk: %s, yesterday: %s yesterday_walk: %s", hash, today, walk, yesterday, yesterday_walk)
+	yesterdayWalk := e.QueryParam("yesterday_walk")
+	partLogger.Infof("hash: %s  today: %s walk: %s, yesterday: %s yesterday_walk: %s", hash, today, walk, yesterday, yesterdayWalk)
 
 	var authedUser *User
 	//if auth := e.Request().Header.Get("Authorization"); auth != "" {
@@ -69,9 +69,9 @@ func (s *Server) postWalk(e echo.Context) error {
 	//}
 
 	message := ""
-	if yesterday != "" && yesterday_walk != "" {
+	if yesterday != "" && yesterdayWalk != "" {
 		message = fmt.Sprintf("%s さんは、\n昨日 %s 日 %s 歩\n今日 %s 日はこれまで %s 歩\n歩きました！",
-			authedUser.Name, yesterday, yesterday_walk, today, walk)
+			authedUser.Name, yesterday, yesterdayWalk, today, walk)
 	} else {
 		message = fmt.Sprintf("%s さんは、今日 %s 歩歩きました！", authedUser.Name, walk)
 	}
