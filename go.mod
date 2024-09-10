@@ -9,7 +9,7 @@ require (
 	github.com/bwmarrin/discordgo v0.28.1
 	github.com/fatih/color v1.17.0
 	github.com/labstack/echo/v4 v4.12.0
-	github.com/mattn/go-sqlite3 v1.14.22
+	github.com/mattn/go-sqlite3 v1.14.23
 	github.com/urfave/cli/v2 v2.27.4
 	go.uber.org/zap v1.27.0
 	golang.org/x/net v0.29.0
