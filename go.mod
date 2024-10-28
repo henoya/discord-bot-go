@@ -7,7 +7,7 @@ toolchain go1.22.3
 require (
 	github.com/bluesky-social/indigo v0.0.0-20240604221852-9815da964ae1
 	github.com/bwmarrin/discordgo v0.28.1
-	github.com/fatih/color v1.17.0
+	github.com/fatih/color v1.18.0
 	github.com/labstack/echo/v4 v4.12.0
 	github.com/mattn/go-sqlite3 v1.14.24
 	github.com/urfave/cli/v2 v2.27.5
