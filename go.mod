@@ -8,7 +8,7 @@ require (
 	github.com/bluesky-social/indigo v0.0.0-20240604221852-9815da964ae1
 	github.com/bwmarrin/discordgo v0.28.1
 	github.com/fatih/color v1.18.0
-	github.com/labstack/echo/v4 v4.12.0
+	github.com/labstack/echo/v4 v4.13.0
 	github.com/mattn/go-sqlite3 v1.14.24
 	github.com/urfave/cli/v2 v2.27.5
 	go.uber.org/zap v1.27.0
@@ -28,7 +28,6 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/goccy/go-json v0.10.3 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.2 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
