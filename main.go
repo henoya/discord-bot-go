@@ -166,7 +166,7 @@ func main() {
 		logger:         mainLogger,
 	}
 
-	mainLogger.Infof("Configuring HTTP server")
+	mainLogger.Info("Configuring HTTP server")
 	e := echo.New()
 	e.Use(middleware.Logger())
 	e.HTTPErrorHandler = func(err error, c echo.Context) {

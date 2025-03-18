@@ -385,7 +385,7 @@ func sendMessage(logger *zap.SugaredLogger, s *discordgo.Session, channelID stri
 		}
 	}(partLogger)
 
-	partLogger.Info("%s %s\n", channelID, msg)
+	partLogger.Infof("%s %s\n", channelID, msg)
 	_, err = s.ChannelMessageSend(channelID, msg)
 	if err != nil {
 		partLogger.Error(err)
