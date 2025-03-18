@@ -32,3 +32,6 @@ sample/
 
 discord-bot-go
 discord-bot.db
+discord-bot_bak.db
+*.log
+bot.log
