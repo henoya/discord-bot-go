@@ -1,7 +1,7 @@
 module github.com/henoya/discord-bot-go
 
 go 1.22
-toolchain go1.23.7
+toolchain go1.24.1
 
 require (
 	github.com/bluesky-social/indigo v0.0.0-20240604221852-9815da964ae1
@@ -9,7 +9,7 @@ require (
 	github.com/fatih/color v1.18.0
 	github.com/labstack/echo/v4 v4.13.3
 	github.com/mattn/go-sqlite3 v1.14.24
-	github.com/urfave/cli/v2 v2.27.5
+	github.com/urfave/cli/v2 v2.27.6
 	go.uber.org/zap v1.27.0
 	golang.org/x/net v0.36.0
 	gorm.io/driver/sqlite v1.5.7
