@@ -1,6 +1,7 @@
 module github.com/henoya/discord-bot-go
 
-go 1.22
+go 1.23.0
+
 toolchain go1.23.7
 
 require (
@@ -9,7 +10,7 @@ require (
 	github.com/fatih/color v1.18.0
 	github.com/labstack/echo/v4 v4.13.3
 	github.com/mattn/go-sqlite3 v1.14.24
-	github.com/urfave/cli/v2 v2.27.5
+	github.com/urfave/cli/v2 v2.27.7
 	go.uber.org/zap v1.27.0
 	golang.org/x/net v0.36.0
 	gorm.io/driver/sqlite v1.5.7
@@ -20,7 +21,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/carlmjohnson/versioninfo v0.22.5 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.7 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.3.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
