@@ -1,6 +1,7 @@
 module github.com/henoya/discord-bot-go
 
-go 1.22
+go 1.23.0
+
 toolchain go1.23.7
 
 require (
@@ -12,8 +13,8 @@ require (
 	github.com/urfave/cli/v2 v2.27.5
 	go.uber.org/zap v1.27.0
 	golang.org/x/net v0.36.0
-	gorm.io/driver/sqlite v1.5.7
-	gorm.io/gorm v1.25.12
+	gorm.io/driver/sqlite v1.6.0
+	gorm.io/gorm v1.31.0
 )
 
 require (
